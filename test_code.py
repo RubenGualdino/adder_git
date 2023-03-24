@@ -4,4 +4,4 @@ def test01():
     TEST_VALUES = [10, 20,30]
     EXPECTED_VALUE:float = 60.0
 
-    b_OK:bool = adder(TEST)
+    b_OK:bool = adder(TEST_VALUES) == EXPECTED_VALUE
